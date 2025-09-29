@@ -1,0 +1,62 @@
+/bin/
+# General
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[]
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# --- Java 基本 ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- ログファイル ---
+*.log
+
+# --- OS が勝手に作るファイル ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ごとの設定 ---
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# --- ビルドツール ---
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
