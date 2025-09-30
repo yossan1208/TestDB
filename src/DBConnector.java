@@ -3,6 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnector {
+//	com.mysql.jdbc.Driverは非推奨警告。com.mysql.cj.jdbc.Driverに変更
 	private static String driverName = "com.mysql.cj.jdbc.Driver";
 	private static String url = 
 			"jdbc:mysql://localhost:8889/testdb?autoReconnect=true&useSSL=false";
